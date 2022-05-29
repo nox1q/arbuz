@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/selection"
+    app:startDestination="@+id/watermelonSelectionFragment">
+
+    <fragment
+        android:id="@+id/watermelonSelectionFragment"
+        android:name="kz.noxiq.arbuz.ui.watermelon_selection.WatermelonSelectionFragment"
+        android:label="WatermelonSelectionFragmnet"
+        tools:layout="@layout/fragment_watermelon_selection">
+
+        <action
+            android:id="@+id/action_watermelonSelectionFragment_to_watermelonInfoFragment"
+            app:destination="@id/watermelonInfoFragment"/>
+    </fragment>
+
+    <dialog
+        android:id="@+id/watermelonInfoFragment"
+        android:name="kz.noxiq.arbuz.ui.watermelon_selection.watermelon_bottom_dialog.WatermelonInfoFragment"
+        android:label="WatermelonInfoFragment"
+        tools:layout="@layout/bottom_dialog_watermelon_info">
+
+    </dialog>
+
+</navigation>

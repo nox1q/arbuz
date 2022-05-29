@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Arbuz</string>
+
+    <string name="home">Главная страница</string>
+    <string name="stash">Корзина</string>
+
+    <string name="empty_stash">Ваша корзина пока пуста</string>
+    <string name="empty_list_disclaimer">Здесь будут лежать товары для покупки</string>
+    <string name="move_to_catalog">Перейти в каталог</string>
+    
+    <string name="checkout">Оформление заказа</string>
+    <string name="delivery">Доставка</string>
+    <string name="provide_delivery_address">Укажите адрес доставки</string>
+    <string name="delivery_date">Дата доставки</string>
+    <string name="delivery_time">Время доставки</string>
+    <string name="street_and_house_number">Улица и номер дома</string>
+    <string name="house">Квартира</string>
+    <string name="floor">Этаж</string>
+    <string name="recipient">Кому доставить</string>
+    <string name="phone">Номер телефона</string>
+    <string name="slice">Порезать дольками</string>
+    <string name="confirm_order">Подтвердить заказ</string>
+    <string name="create_order">Сделать заказ</string>
+
+    <string name="ripe">Спелый</string>
+    <string name="unripe">Неспелый</string>
+    <string name="ripped">Уже сорван</string>
+
+    <string name="btn_checkout">Продолжить</string>
+    <string name="btn_move_to_checkout">Перейти к оплате</string>
+    <string name="total_price">Всего к оплате</string>
+
+</resources>

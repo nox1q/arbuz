@@ -1,0 +1,2 @@
+rootProject.name = "Arbuz"
+include ':app'
